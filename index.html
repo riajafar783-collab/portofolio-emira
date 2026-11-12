@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <!-- Pengaturan dasar halaman dan tampilan responsif -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Emira Gizza Humairoh, siswi Desain Komunikasi Visual.">
+  <title>Emira Gizza Humairoh | Portofolio DKV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header berisi nama brand dan navigasi utama -->
+  <header class="site-header">
+    <a class="brand" href="#beranda" aria-label="Kembali ke beranda">EGH<span>.</span></a>
+    <nav class="navigation" id="navigation" aria-label="Navigasi utama">
+      <a href="#beranda">Beranda</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#karya">Karya</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <a class="header-contact" href="#kontak">Hubungi Saya <span aria-hidden="true">↗</span></a>
+    <!-- Tombol menu untuk tampilan layar kecil -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- Bagian perkenalan / hero -->
+    <section class="hero section-wrap" id="beranda">
+      <div class="hero-copy">
+        <p class="eyebrow">PORTOFOLIO • DESAIN KOMUNIKASI VISUAL</p>
+        <h1>Emira Gizza<br class="desktop-break"> Humairoh<span>.</span></h1>
+        <h2>Siswi DKV · Desainer Grafis Pemula</h2>
+        <div class="short-line"></div>
+        <p class="hero-description">
+          Halo! Saya Emira, siswi SMK jurusan Desain Komunikasi Visual.
+          Saya memiliki ketertarikan kuat dalam menciptakan identitas visual
+          serta desain yang mampu mengomunikasikan gagasan secara efektif.
+        </p>
+        <a class="primary-button" href="#karya">Lihat Karya Saya <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="photo-orbit orbit-one"></div>
+        <div class="photo-orbit orbit-two"></div>
+        <img class="hero-photo" src="assets/emira-profile.jpeg" alt="Foto profil Emira Gizza Humairoh">
+        <span class="photo-caption">Creative mind<br>with visual ideas.</span>
+      </div>
+      <div class="hero-decoration" aria-hidden="true">✳</div>
+    </section>
+
+    <!-- Bagian tentang diri dan kemampuan -->
+    <section class="about section-wrap" id="tentang">
+      <div class="section-heading">
+        <p class="eyebrow">KENALI SAYA</p>
+        <h2>Tentang <span>Saya</span></h2>
+      </div>
+      <div class="about-grid">
+        <p class="about-text">
+          Saya adalah siswa SMK Desain Komunikasi Visual yang senang mengeksplorasi
+          dunia kreatif. Saya tertarik pada desain grafis, ilustrasi digital, dan
+          branding. Saya selalu terbuka untuk mempelajari hal baru dan mengubah
+          ide menjadi karya visual yang menarik serta bermakna.
+        </p>
+        <div class="about-note">
+          <span class="note-mark">“</span>
+          <p>Desain yang baik bukan hanya terlihat menarik, tetapi juga mampu menyampaikan pesan.</p>
+        </div>
+      </div>
+
+      <!-- Daftar software yang dikuasai -->
+      <div class="skills-area">
+        <h3>Software &amp; Skills</h3>
+        <div class="skills-list">
+          <span>Adobe Illustrator</span>
+          <span>Canva</span>
+          <span>Figma</span>
+          <span>CorelDRAW</span>
+          <span>Adobe Photoshop</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bagian galeri karya -->
+    <section class="works section-wrap" id="karya">
+      <div class="section-heading">
+        <p class="eyebrow">HASIL EKSPLORASI</p>
+        <h2>Karya <span>Pilihan</span></h2>
+        <p class="section-subtitle">Beberapa karya desain yang pernah saya kerjakan.</p>
+      </div>
+      <article class="project-card">
+        <a class="project-image-link" href="assets/fara-course-flyer.jpeg" target="_blank" rel="noopener">
+          <img src="assets/fara-course-flyer.jpeg" alt="Desain flyer promosi Fara Course">
+          <span class="image-hint">Lihat gambar ↗</span>
+        </a>
+        <div class="project-info">
+          <p class="project-category">DESAIN PROMOSI · LAYOUT</p>
+          <h3>Fara Course</h3>
+          <p>Desain media promosi bimbingan belajar dengan kombinasi warna navy, oranye, dan putih untuk menampilkan kesan edukatif, ramah, serta mudah dibaca.</p>
+          <span class="project-tag">Flyer Design</span>
+        </div>
+      </article>
+    </section>
+
+    <!-- Bagian kontak untuk menghubungi pemilik portofolio -->
+    <section class="contact section-wrap" id="kontak">
+      <div class="contact-copy">
+        <p class="eyebrow">PUNYA IDE ATAU PROYEK?</p>
+        <h2>Mari buat sesuatu<br><span>yang menarik.</span></h2>
+        <p>Saya terbuka untuk belajar, berkolaborasi, dan mengembangkan ide kreatif bersama.</p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:riajafar783@gmail.com"><span class="contact-icon">✉</span><span><small>Email</small>riajafar783@gmail.com</span><b>↗</b></a>
+        <a href="https://www.instagram.com/emiraverse/" target="_blank" rel="noopener"><span class="contact-icon">◎</span><span><small>Instagram</small>@emiraverse</span><b>↗</b></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer sederhana -->
+  <footer class="site-footer">
+    <p>© <span id="currentYear"></span> Emira Gizza Humairoh</p>
+    <p>Dibuat dengan ide dan kreativitas.</p>
+  </footer>
+
+  <!-- JavaScript untuk menu mobile dan tahun otomatis -->
+  <script src="script.js"></script>
+</body>
+</html>
